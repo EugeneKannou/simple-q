@@ -1,5 +1,5 @@
 {
-  "name": "simple-q",
+  "name": "simpleq",
   "version": "1.0.0",
   "description": "Simple lightweight microservice for queuing data with data separation for different microservices. Support weighted queue.",
 

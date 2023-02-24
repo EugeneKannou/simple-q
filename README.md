@@ -80,7 +80,7 @@ Queues are stored in memory using a simple queue implementation. Queues are auto
 
 ### Building an image
 - Build the image using `docker build -t simple-q .`
-- Run the container `docker run -d -p 6969:6969 --name simple-q simple-q`
+- Run the container `docker run -d -p 6969:6969 --name simpleq simpleq`
 
 ### Download from dockerhub
--  `docker run eugenekannou/simple-q:latest`
+-  `docker run eugenekannou/simpleq:latest`
