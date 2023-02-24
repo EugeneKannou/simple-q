@@ -78,6 +78,9 @@ Queues are stored in memory using a simple queue implementation. Queues are auto
 - Start the microservice using `node server.js`
 - Use the endpoints listed above to manage queues.
 
-### Docker
+### Building an image
 - Build the image using `docker build -t simple-q .`
 - Run the container `docker run -d -p 6969:6969 --name simple-q simple-q`
+
+### Download from dockerhub
+-  `docker run eugenekannou/simple-q:latest`
