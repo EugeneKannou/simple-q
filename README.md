@@ -37,7 +37,7 @@ Response Body
 | length  	| number        	| Number of items in queue after popping 	|
 
 
-GET /len
+### GET /len
 Get the number of items in a queue identified by an ID.
 
 Request Query Parameters
@@ -53,7 +53,7 @@ Response Body
 | length  	| number        	| Number of items left in queue          	|
 
 
-GET /ping
+### GET /ping
 Ping a queue identified by an ID, resetting its timeout.
 
 Request Query Parameters
